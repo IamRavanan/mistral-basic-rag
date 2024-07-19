@@ -2,6 +2,7 @@ import requests
 
 DOC_LINK = 'https://raw.githubusercontent.com/run-llama/llama_index/main/docs/docs/examples/data/paul_graham/paul_graham_essay.txt'
 
+
 class FileGenrator:
 
     def __init__(self, url, file_name) -> None:
@@ -44,7 +45,6 @@ class FileGenrator:
         """
         data = self.retrieve_doc()
         self.write_to_file(data)
-
 
 
 if __name__ == "__main__":
