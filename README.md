@@ -10,35 +10,45 @@ This project guides you through building a basic Retrieval-Augmented Generation 
 - [Contact](#contact)
 
 ## Installation
+
+### Clone the repository
 ```bash
-# Clone the repository
 git clone https://github.com/IamRavanan/mistral-basic-rag.git
+```
 
-# Navigate to the project directory
+### Navigate to the project directory
+```bash
 cd mistral-basic-rag
-
-# Create virtual environment
+```
+### Create virtual environment
+```bash
 python -m venv .venv
+```
 
-# Activate your virtual environment
+### Activate your virtual environment
 
-#Windows
+#### Windows
+```bash
 .venv\Scripts\activate.bat\
-
-#MacOs
+```
+#### MacOs
+```bash
 source .venv/bin/activate
-
-# Install dependencies
-python -m pip install --upgrade pip
-pip install -r requirements.txt
+```
+### Install dependencies
+```bash
+python -m pip install --upgrade pip && pip install -r requirements.txt
 ```
 
 ## Usage
-```bash
-# Invoke the script
-python .\invoke.py "What were the two main things the author worked on before college?"
 
-# Example Output
+#### Invoke the script
+```bash
+python .\invoke.py "What were the two main things the author worked on before college?"
+```
+
+#### Example Output
+```bash
 PS D:\GitHub\mistral-rag> python .\invoke.py "What were the two main things the author worked on before college?"
  - Creating Mistral Client ...
  - Loading data ...
@@ -72,6 +82,7 @@ MIT License
 
 ## Contact
 - LinkedIn: https://www.linkedin.com/in/ndeenadayalan
-- GitHub  : [IamRavanan](https://github.com/IamRavanan)
-- Blog    : [Let's Learn together](https://configmistakes.wordpress.com/)
+- GitHub: [IamRavanan](https://github.com/IamRavanan)
+- Blog: [Let's Learn together](https://configmistakes.wordpress.com/)
+
 
