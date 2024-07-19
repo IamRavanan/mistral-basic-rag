@@ -81,8 +81,8 @@ MIT License
 ```
 
 ## Contact
-- LinkedIn: https://www.linkedin.com/in/ndeenadayalan
-- GitHub: [IamRavanan](https://github.com/IamRavanan)
-- Blog: [Let's Learn together](https://configmistakes.wordpress.com/)
+- [LinkedIn](https://www.linkedin.com/in/ndeenadayalan)
+- [GitHub](https://github.com/IamRavanan)
+- [Blog](https://configmistakes.wordpress.com/)
 
 
