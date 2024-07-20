@@ -1,6 +1,6 @@
 from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
-from query import QueryMistral as qm
+from utils.query import QueryMistral as qm
 import argparse
 import os
 

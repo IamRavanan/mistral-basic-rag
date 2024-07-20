@@ -67,14 +67,6 @@ PS D:\GitHub\mistral-rag> python .\invoke.py "What were the two main things the 
  Response : The two main things the author worked on before college were writing and programming. They wrote short stories, which they described as having hardly any plot and mostly focusing on characters with strong feelings. In terms of programming, they tried writing programs on an IBM 1401 in 9th grade using an early version of Fortran. They typed programs on punch cards, which were then loaded into memory and run on the machine. However, they couldn't remember any specific programs they wrote as they didn't have any data stored on punched cards and didn't know enough math to do anything interesting without input. With the advent of microcomputers, they found that programming became much more accessible and interesting.
 ```
 
-## Contributing
-1. Fork the repository.
-2. Create a new branch (`git checkout -b feature-branch`).
-3. Make your changes.
-4. Commit your changes (`git commit -m 'Add new feature'`).
-5. Push to the branch (`git push origin feature-branch`).
-6. Open a pull request.
-
 ## License
 ```
 MIT License

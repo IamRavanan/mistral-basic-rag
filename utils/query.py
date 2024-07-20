@@ -2,7 +2,7 @@ from mistralai.client import MistralClient
 from mistralai.models.chat_completion import ChatMessage
 import numpy as np
 import pickle
-from make_db import BasicMistralRag as mrag
+from utils.make_db import BasicMistralRag as mrag
 
 
 class QueryMistral(mrag):
