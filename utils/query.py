@@ -61,8 +61,3 @@ class QueryMistral(mrag):
         D, I = index.search(question_embeddings, k=3)  # distance, index
         retrieved_chunks = [chunks[i] for i in I.tolist()[0]]
         return retrieved_chunks
-
-    def retrieve_chunks_from_vector_db(self, index, question_embeddings, chunks):
-        D, I = index.search(question_embeddings, k=3)  # distance, index
-        retrieved_chunks = [chunks[i] for i in I.tolist()[0]]
-        return retrieved_chunks
